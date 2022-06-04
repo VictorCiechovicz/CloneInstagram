@@ -1,0 +1,162 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: sans-serif;
+font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height:100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 60%;
+    height: 100vh;
+    gap: 60px;
+    }
+
+.instagram-phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+    }
+
+.instagram-phone img{
+    height: 50rem;
+}
+
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100px;
+    gap: 10px;
+    }
+
+.group1{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 350px;
+    height: 500px;
+    padding: 50px;
+    border:  1px solid lightgray;
+    gap: 10px;
+
+   
+}   
+/**
+.group:nth-child(1){
+
+    min-height: 19rem;
+}**/
+
+.intagram-logo{
+
+    height: 100px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+        
+}
+
+.sizebox{
+    width: 250px;
+    height: 35px;
+}
+
+.button-start{
+    display: flex;
+    background-color: #0095f6;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+   justify-content: center;
+   align-items: center;
+     
+}
+
+.text-start{
+    color: #fff;
+      
+}
+
+.group2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border:  1px solid lightgray;
+    width: 350px;
+    padding: 15px;
+}
+
+.cadastro{
+    display: flex;
+    gap: 5px;
+    font-family: sans-serif;
+
+
+}
+
+.entrar{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    text-align: center;
+    gap:10px
+}
+
+.instagram-logout{
+ font-size: 12px;
+
+
+}
+
+.instagram-login-facebook{
+    font-size: 14px;
+   
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.get-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.get-the-app img{
+
+    height: 11rem;
+
+
+
+}
+
