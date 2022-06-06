@@ -33,7 +33,7 @@ body{
     }
 
 .instagram-phone img{
-    height: 50rem;
+    height: 47rem;
 }
 
 .instagram-login{
@@ -49,10 +49,11 @@ body{
 .group1{
 
     display: flex;
+    justify-content: space-around   ;
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 350px;
+    width: 320px;
     height: 370px;
     padding: 50px;
     border:  1px solid lightgray;
@@ -107,7 +108,7 @@ body{
     flex-direction: column;
     background-color: #fff;
     border:  1px solid lightgray;
-    width: 350px;
+    width: 320px;
     padding: 15px;
 }
 
