@@ -53,10 +53,10 @@ body{
     flex-direction: column;
     background-color: #fff;
     width: 350px;
-    height: 500px;
+    height: 370px;
     padding: 50px;
     border:  1px solid lightgray;
-    gap: 10px;
+    gap:10px
 
    
 }   
@@ -88,8 +88,8 @@ body{
     display: flex;
     background-color: #0095f6;
     border-radius: 5px;
-    width: 250px;
-    height: 40px;
+    min-width: 250px;
+    min-height: 40px;
    justify-content: center;
    align-items: center;
      
@@ -142,21 +142,24 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content:space-between;
     
 }
 
 .get-app{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    
     
 }
 
 .get-the-app img{
 
     height: 11rem;
+}
 
+.app-download{
 
-
+    max-width:none;
+    max-height:none;
 }
 
